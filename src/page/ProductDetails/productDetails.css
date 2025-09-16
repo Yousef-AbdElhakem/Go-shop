@@ -1,0 +1,123 @@
+.item_details {
+    padding: 50px 0;
+}
+
+ :root{
+  --main_color: #2C3E50;
+  --p_color: #2C2C2C;
+  --bg_color: #ECF0F1;
+  --color_heading: #7F8C8D;
+  --btn_color: #E67E22;
+ }
+.item_details .container {
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+}
+.item_details .imgs_item {
+    width: 40%;
+}
+.item_details .imgs_item .big_img {
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.item_details .imgs_item .big_img img {
+    max-height: 450px;
+    width: auto;
+}
+.item_details .imgs_item .sm_img {
+    display: flex
+;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.item_details .imgs_item .sm_img img{
+    width: 24%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item_details .details_item {
+    width: 58%;
+}
+.item_details .details_item h1 {
+    margin-bottom: 30px;
+    color: var(--p_color);
+}
+.item_details .details_item .stars {
+    margin: 15px 0;
+    display: flex;
+    gap: 5px;
+    color: rgba(255, 217, 0, 0.801);
+}
+
+.item_details .details_item .price {
+    font-size: 22px;
+    margin: 20px 0;
+    color: var(--btn_color);
+}
+
+.item_details .details_item h5 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #2C3E50;
+}
+.item_details .details_item .desc {
+    line-height: 1.5;
+     color: rgb(146, 146, 146);
+
+}
+
+.item_details .details_item .stock span {
+    font-size: 20px;
+    margin-top: 20px;
+     color: #2C3E50 !important;
+  
+}
+.item_details .details_item a {
+    font-size: 16px;
+    border-radius: 2px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+    background-color: var(--btn_color);
+    color: white;
+}
+.item_details .details_item a:hover {
+scale: 1.09;
+}
+
+.item_details .details_item .icons {
+    display: flex;
+    gap: 10px;
+    transition: .3s;
+    margin: 20px 0;
+}
+
+.item_details .details_item .icons span {
+    width: 40px;
+    height: 40px;
+    background: #2C3E50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: .3s;
+    color: #E67E22;
+}
+
+.item_details .details_item .icons span:hover {
+    color: #27AE60;
+        background-color: #272727;
+    scale: 1.1;
+}
+.item_details .details_item .icons .active {
+    color: #27AE60;
+        background-color: #272727;
+}

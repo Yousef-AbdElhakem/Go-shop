@@ -1,0 +1,23 @@
+.login{
+    color:#ffffff ;
+    background-color: #2C3E50;
+    margin-bottom: 30px;
+}
+ :root{
+  --main_color: #2C3E50;
+  --p_color: #2C2C2C;
+  --bg_color: #ECF0F1;
+  --color_heading: #7F8C8D;
+  --btn_color: #E67E22;
+ }
+ .login .text{
+    color: #bbbbbb;
+ }
+ .login .submit{
+    background-color: #E67E22;
+    border-color:#E67E22 ;
+ }
+  .login .submit:hover{
+  scale: 1.1;
+  color: #000000;
+  }

@@ -1,0 +1,51 @@
+
+.card-img-left {
+    margin-left: 12px;
+    border-radius: 12px;
+}
+ :root{
+  --main_color: #2C3E50;
+  --p_color: #2C2C2C;
+  --bg_color: #ECF0F1;
+  --color_heading: #7F8C8D;
+  --btn_color: #E67E22;
+ }
+.cart {
+    background-color: rgb(255, 255, 255);
+}
+.card {
+    background-color:#2C3E50 !important;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 200px !important;
+}
+.card img{
+        width: auto;
+    height: 160px;
+}
+
+.card:hover {
+    border: 2px solid var(  --btn_color);
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(15, 15, 15, 0.6);
+}
+/* -------------------------------------- */
+
+.cart .btn {
+    color: #ffffff;
+    background-color:  #C0392B;
+    border: 1px solid #C0392B;
+}
+.cart .btnplus{
+        color: #ffffff;
+    background-color: #2C2C2C;
+    border: 1px solid #E67E22;
+}
+.cart .btnplus:hover{
+     background-color: #27AE60;
+             color: #000000;
+}
+
+/* ------------------------------------------ */
